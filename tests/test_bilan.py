@@ -87,6 +87,6 @@ def test_page_complete():
     en_texte = lambda bloc: json.loads(json.dumps(bloc, default=str))  # noqa: E731
     chiffres = {"client": "Exemple", "n": en_texte(analyser(dossier / "000000000FEC20251231.txt")),
                 "n1": en_texte(analyser(dossier / "000000000FEC20241231.txt"))}
-    messages = json.loads((RACINE / "exemples" / "rendez-vous-bilan" / "messages.json").read_text(encoding="utf-8"))
+    messages = json.loads((RACINE / "exemples" / "sorties" / "rendez-vous-bilan" / "messages.json").read_text(encoding="utf-8"))
     page = construire(chiffres, messages)
     assert page.count("class='carte message'") == 3 and "<svg" in page and "1 024 530 €" in page

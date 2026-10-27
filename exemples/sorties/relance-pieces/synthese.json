@@ -1,0 +1,104 @@
+[
+  {
+    "client": "Studio Ostinato (fictif)",
+    "mouvements": 17,
+    "sans_piece_attendue": 1,
+    "rapproches": 9,
+    "manquants": [
+      {
+        "date": "2026-09-24",
+        "montant": "2650.00",
+        "libelle": "VIR ASSOCIATION FESTIVAL DES DUNES"
+      },
+      {
+        "date": "2026-09-29",
+        "montant": "-891.34",
+        "libelle": "ACHAT CB MAGASIN MUSIQUE PRO"
+      },
+      {
+        "date": "2026-09-17",
+        "montant": "-842.38",
+        "libelle": "ACHAT CB MAGASIN MUSIQUE PRO"
+      },
+      {
+        "date": "2026-09-18",
+        "montant": "-117.19",
+        "libelle": "CB TRAIN GRANDES LIGNES"
+      },
+      {
+        "date": "2026-09-18",
+        "montant": "-86.63",
+        "libelle": "CB RESTAURANT LE CONTREPOINT"
+      },
+      {
+        "date": "2026-09-03",
+        "montant": "-76.08",
+        "libelle": "CB RESTAURANT LE CONTREPOINT"
+      },
+      {
+        "date": "2026-09-11",
+        "montant": "-29.76",
+        "libelle": "PRLV LOGICIEL AUDIO ABONNEMENT"
+      }
+    ],
+    "total_manquant": "4693.38",
+    "justificatifs_sans_mouvement": []
+  },
+  {
+    "client": "Boulangerie du Canal (fictive)",
+    "mouvements": 41,
+    "sans_piece_attendue": 23,
+    "rapproches": 10,
+    "manquants": [
+      {
+        "date": "2026-09-22",
+        "montant": "-1331.82",
+        "libelle": "VIR SEPA SCI QUAI NEUF LOYER"
+      },
+      {
+        "date": "2026-09-22",
+        "montant": "-543.40",
+        "libelle": "CB LAITERIE COOPERATIVE VAL"
+      },
+      {
+        "date": "2026-09-16",
+        "montant": "-406.94",
+        "libelle": "CB LAITERIE COOPERATIVE VAL"
+      },
+      {
+        "date": "2026-09-14",
+        "montant": "-179.68",
+        "libelle": "CB EMBALLAGES DU MARCHE"
+      },
+      {
+        "date": "2026-09-02",
+        "montant": "-131.54",
+        "libelle": "CB FRUITS ET PRIMEURS LEON"
+      },
+      {
+        "date": "2026-09-10",
+        "montant": "-122.85",
+        "libelle": "CB FRUITS ET PRIMEURS LEON"
+      },
+      {
+        "date": "2026-09-18",
+        "montant": "-93.70",
+        "libelle": "CB FRUITS ET PRIMEURS LEON"
+      },
+      {
+        "date": "2026-09-30",
+        "montant": "-65.48",
+        "libelle": "CB FRUITS ET PRIMEURS LEON"
+      }
+    ],
+    "total_manquant": "2875.41",
+    "justificatifs_sans_mouvement": [
+      {
+        "fichier": "pieces/20260921-10.pdf",
+        "date": "2026-09-21",
+        "tiers": "Grossiste Vaisselle Pro",
+        "montant": "329.90"
+      }
+    ]
+  }
+]
