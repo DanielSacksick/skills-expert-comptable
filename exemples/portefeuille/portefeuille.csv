@@ -1,0 +1,11 @@
+client;contact;tutoiement;regime_tva;jour_tva;tva_par_periode;tva_annuelle_n1;cloture;soumis_is;is_dernier_exercice;cfe_n1;cfe_mensualisee;effectif;cotisations_mensuelles;tresorerie
+Pivert Conseil SAS (fictive);Jeanne;non;mensuel;21;12400;0;31/12;oui;42312;4800;non;9;23500;310585
+Boulangerie du Canal (fictive);Camille;oui;simplifie;19;0;9800;31/12;oui;6400;1150;non;4;5200;8900
+Studio Ostinato (fictif);Noé;oui;mensuel;16;1850;0;31/12;oui;2600;640;non;0;0;21400
+Garage Horizon (fictif);Malik;non;mensuel;19;6100;0;30/06;oui;18200;2900;non;6;11800;14300
+Cabinet de kiné Orme (fictif);Inès;oui;franchise;15;0;0;31/12;non;0;520;non;0;0;12700
+Agence Nacre (fictive);Lou;non;trimestriel;21;3900;0;31/12;oui;9800;1340;oui;2;3600;27800
+Librairie Méandre (fictive);Paul;non;simplifie;16;0;740;31/12;oui;1900;880;non;1;1400;3600
+Traiteur Saveurs d'Île (fictif);Sacha;oui;mensuel;24;4300;0;30/09;oui;7600;3400;non;8;14200;19800
+Menuiserie Carène (fictive);Yann;non;simplifie;21;0;14600;31/12;oui;12800;3100;non;5;9100;42100
+Atelier Basalte (fictif);Romane;oui;mensuel;17;2200;0;31/12;oui;0;780;non;1;1900;6100

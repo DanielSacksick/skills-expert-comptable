@@ -1,0 +1,315 @@
+{
+  "client": "Pivert Conseil SAS (société fictive)",
+  "n": {
+    "fichier": "000000000FEC20251231.txt",
+    "exercice": 2025,
+    "sig": {
+      "ventes_marchandises": "-0",
+      "cout_marchandises": "0",
+      "marge_commerciale": "-0",
+      "production_exercice": "1024530.04",
+      "consommations_tiers": "275451.89",
+      "valeur_ajoutee": "749078.15",
+      "subventions": "-0",
+      "impots_taxes": "0",
+      "charges_personnel": "537018.71",
+      "ebe": "212059.44",
+      "resultat_exploitation": "186808.78",
+      "resultat_financier": "-560.00",
+      "resultat_courant": "186248.78",
+      "resultat_exceptionnel": "-0",
+      "impot_participation": "42312.00",
+      "resultat_net": "143936.78",
+      "chiffre_affaires": "1024530.04"
+    },
+    "bilan": {
+      "tresorerie_nette": "310585.45",
+      "disponibilites": "313345.38",
+      "concours_bancaires": "2759.93",
+      "creances_clients": "196986.58",
+      "dettes_fournisseurs": "10383.16",
+      "bfr": "130496.73",
+      "capitaux_propres": "439762.18",
+      "emprunts": "10800.00",
+      "delai_clients_jours": "58",
+      "delai_fournisseurs_jours": "11"
+    },
+    "tresorerie_mensuelle": [
+      [
+        "2025-01",
+        "289315.83"
+      ],
+      [
+        "2025-02",
+        "265916.64"
+      ],
+      [
+        "2025-03",
+        "299905.60"
+      ],
+      [
+        "2025-04",
+        "304598.62"
+      ],
+      [
+        "2025-05",
+        "289671.18"
+      ],
+      [
+        "2025-06",
+        "297799.18"
+      ],
+      [
+        "2025-07",
+        "319025.07"
+      ],
+      [
+        "2025-08",
+        "290425.84"
+      ],
+      [
+        "2025-09",
+        "283009.27"
+      ],
+      [
+        "2025-10",
+        "325510.69"
+      ],
+      [
+        "2025-11",
+        "326251.54"
+      ],
+      [
+        "2025-12",
+        "310585.45"
+      ]
+    ],
+    "ca_mensuel": {
+      "1": "75805.93",
+      "2": "120234.11",
+      "3": "80496.56",
+      "4": "105318.71",
+      "5": "75358.49",
+      "6": "57837.44",
+      "7": "73464.97",
+      "8": "60817.57",
+      "9": "103412.64",
+      "10": "80603.89",
+      "11": "68868.14",
+      "12": "122311.59"
+    },
+    "controle_resultat": "143936.78",
+    "avertissements": []
+  },
+  "n1": {
+    "fichier": "000000000FEC20241231.txt",
+    "exercice": 2024,
+    "sig": {
+      "ventes_marchandises": "-0",
+      "cout_marchandises": "0",
+      "marge_commerciale": "-0",
+      "production_exercice": "957810.19",
+      "consommations_tiers": "216807.66",
+      "valeur_ajoutee": "741002.53",
+      "subventions": "-0",
+      "impots_taxes": "0",
+      "charges_personnel": "484491.14",
+      "ebe": "256511.39",
+      "resultat_exploitation": "216330.40",
+      "resultat_financier": "-896.00",
+      "resultat_courant": "215434.40",
+      "resultat_exceptionnel": "-0",
+      "impot_participation": "49609.00",
+      "resultat_net": "165825.40",
+      "chiffre_affaires": "957810.19"
+    },
+    "bilan": {
+      "tresorerie_nette": "159558.93",
+      "disponibilites": "159558.93",
+      "concours_bancaires": "0",
+      "creances_clients": "224253.39",
+      "dettes_fournisseurs": "15768.97",
+      "bfr": "142666.47",
+      "capitaux_propres": "295825.40",
+      "emprunts": "20400.00",
+      "delai_clients_jours": "71",
+      "delai_fournisseurs_jours": "22"
+    },
+    "tresorerie_mensuelle": [
+      [
+        "2024-01",
+        "101735.10"
+      ],
+      [
+        "2024-02",
+        "120350.18"
+      ],
+      [
+        "2024-03",
+        "103476.11"
+      ],
+      [
+        "2024-04",
+        "96700.25"
+      ],
+      [
+        "2024-05",
+        "93733.07"
+      ],
+      [
+        "2024-06",
+        "101100.01"
+      ],
+      [
+        "2024-07",
+        "131990.10"
+      ],
+      [
+        "2024-08",
+        "191232.82"
+      ],
+      [
+        "2024-09",
+        "156630.05"
+      ],
+      [
+        "2024-10",
+        "160388.99"
+      ],
+      [
+        "2024-11",
+        "155057.84"
+      ],
+      [
+        "2024-12",
+        "159558.93"
+      ]
+    ],
+    "ca_mensuel": {
+      "1": "72118.86",
+      "2": "70328.07",
+      "3": "55410.27",
+      "4": "80009.05",
+      "5": "102018.85",
+      "6": "86972.91",
+      "7": "91344.99",
+      "8": "36775.73",
+      "9": "51598.46",
+      "10": "70524.66",
+      "11": "99622.14",
+      "12": "141086.20"
+    },
+    "controle_resultat": "165825.40",
+    "avertissements": []
+  },
+  "variations": {
+    "ventes_marchandises": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "cout_marchandises": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "marge_commerciale": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "production_exercice": {
+      "ecart": "66719.85",
+      "pourcent": "7.0"
+    },
+    "consommations_tiers": {
+      "ecart": "58644.23",
+      "pourcent": "27.0"
+    },
+    "valeur_ajoutee": {
+      "ecart": "8075.62",
+      "pourcent": "1.1"
+    },
+    "subventions": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "impots_taxes": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "charges_personnel": {
+      "ecart": "52527.57",
+      "pourcent": "10.8"
+    },
+    "ebe": {
+      "ecart": "-44451.95",
+      "pourcent": "-17.3"
+    },
+    "resultat_exploitation": {
+      "ecart": "-29521.62",
+      "pourcent": "-13.6"
+    },
+    "resultat_financier": {
+      "ecart": "336.00",
+      "pourcent": "37.5"
+    },
+    "resultat_courant": {
+      "ecart": "-29185.62",
+      "pourcent": "-13.5"
+    },
+    "resultat_exceptionnel": {
+      "ecart": "0",
+      "pourcent": null
+    },
+    "impot_participation": {
+      "ecart": "-7297.00",
+      "pourcent": "-14.7"
+    },
+    "resultat_net": {
+      "ecart": "-21888.62",
+      "pourcent": "-13.2"
+    },
+    "chiffre_affaires": {
+      "ecart": "66719.85",
+      "pourcent": "7.0"
+    },
+    "tresorerie_nette": {
+      "ecart": "151026.52",
+      "pourcent": "94.7"
+    },
+    "disponibilites": {
+      "ecart": "153786.45",
+      "pourcent": "96.4"
+    },
+    "concours_bancaires": {
+      "ecart": "2759.93",
+      "pourcent": null
+    },
+    "creances_clients": {
+      "ecart": "-27266.81",
+      "pourcent": "-12.2"
+    },
+    "dettes_fournisseurs": {
+      "ecart": "-5385.81",
+      "pourcent": "-34.2"
+    },
+    "bfr": {
+      "ecart": "-12169.74",
+      "pourcent": "-8.5"
+    },
+    "capitaux_propres": {
+      "ecart": "143936.78",
+      "pourcent": "48.7"
+    },
+    "emprunts": {
+      "ecart": "-9600.00",
+      "pourcent": "-47.1"
+    },
+    "delai_clients_jours": {
+      "ecart": "-13",
+      "pourcent": "-18.3"
+    },
+    "delai_fournisseurs_jours": {
+      "ecart": "-11",
+      "pourcent": "-50.0"
+    }
+  }
+}

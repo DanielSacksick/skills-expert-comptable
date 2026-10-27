@@ -1,6 +1,11 @@
 {
   "name": "skills-expert-comptable",
-  "owner": { "name": "Daniel Sacksick" },
+  "owner": {
+    "name": "Daniel Sacksick"
+  },
+  "metadata": {
+    "description": "Skills Claude pour l'expert-comptable de terrain, en français."
+  },
   "plugins": [
     {
       "name": "skills-expert-comptable",

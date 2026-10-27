@@ -61,3 +61,13 @@ def test_frontmatter_portable():
         assert set(champs) <= {"name", "description", "license", "compatibility", "metadata"}
         assert champs["name"].strip() == skill.name
         assert len(champs["description"].strip()) <= 200, f"{skill.name} : description > 200 caractères"
+
+
+def test_zips_claude_ai_a_jour():
+    import zipfile
+    from construire_zips import fichiers_du_skill
+    for skill in (RACINE / "skills").iterdir():
+        archive = zipfile.ZipFile(RACINE / "zips" / f"{skill.name}.zip")
+        attendus = {f"{skill.name}/{f.relative_to(skill).as_posix()}": f.read_bytes() for f in fichiers_du_skill(skill)}
+        assert {n: archive.read(n) for n in archive.namelist()} == attendus, \
+            f"zips/{skill.name}.zip n'est pas à jour : lancer python outils/construire_zips.py"

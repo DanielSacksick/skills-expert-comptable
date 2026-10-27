@@ -1,6 +1,6 @@
 """Soldes intermédiaires de gestion, trésorerie et BFR à partir des soldes d'un FEC.
 
-SIG : tableau du système développé du plan comptable général (règlement ANC n° 2014-03).
+SIG : tableau d'usage, issu de l'ancien système développé du PCG (voir references/formules.md).
 Le BFR et la trésorerie sont une lecture simplifiée du bilan, détaillée dans references/formules.md.
 Convention : produits et ressources en positif, charges et emplois en positif, puis on soustrait.
 """

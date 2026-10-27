@@ -4,7 +4,9 @@ Les montants viennent des soldes du FEC (débit moins crédit). Le code est dans
 
 ## Soldes intermédiaires de gestion
 
-Tableau des SIG du système développé du plan comptable général (règlement ANC n° 2014-03, recueil des normes comptables françaises, [anc.gouv.fr](https://www.anc.gouv.fr/normes-francaises/recueils)).
+Le tableau des SIG figurait dans le système développé du plan comptable général (règlement ANC n° 2014-03, article 832-8 dans sa version initiale, [PDF ANC](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2014/Reglt2014-03/Reglt%202014-03_Plan%20comptable%20general.pdf)). Il n'est plus dans le PCG pour les exercices ouverts à compter du 1er janvier 2025 (règlement ANC n° 2022-06, [recueil PCG 2026](https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/Recueil-PCG-Janvier-2026.pdf)), mais reste l'outil d'analyse d'usage de la profession.
+
+Le tableau officiel ne donnait que des postes, pas des numéros de comptes. Le rattachement des comptes ci-dessous est celui du script, conforme à l'usage ; il est modifiable dans `scripts/sig.py`.
 
 | Solde | Calcul | Comptes |
 |---|---|---|

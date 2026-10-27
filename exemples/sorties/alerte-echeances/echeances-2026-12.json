@@ -1,0 +1,354 @@
+[
+  {
+    "client": "Pivert Conseil SAS (fictive)",
+    "tresorerie": "310585",
+    "total": "48878",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Pivert Conseil SAS (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "10578",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Pivert Conseil SAS (fictive)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "23500",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Pivert Conseil SAS (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "2400",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Pivert Conseil SAS (fictive)",
+        "jour": "2026-12-21",
+        "nature": "TVA (CA3) du mois précédent",
+        "montant": "12400",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Boulangerie du Canal (fictive)",
+    "tresorerie": "8900",
+    "total": "11870",
+    "etat_tresorerie": "insuffisante",
+    "echeances": [
+      {
+        "client": "Boulangerie du Canal (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "1600",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Boulangerie du Canal (fictive)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "5200",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Boulangerie du Canal (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "1150",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Boulangerie du Canal (fictive)",
+        "jour": "2026-12-21",
+        "nature": "Acompte de TVA (CA12), 40 % de la TVA de l'an dernier",
+        "montant": "3920",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Studio Ostinato (fictif)",
+    "tresorerie": "21400",
+    "total": "2490",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Studio Ostinato (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "0",
+        "paiement": true,
+        "note": "Dispensé : IS du dernier exercice n'excédant pas 3 000 €."
+      },
+      {
+        "client": "Studio Ostinato (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "640",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Studio Ostinato (fictif)",
+        "jour": "2026-12-16",
+        "nature": "TVA (CA3) du mois précédent",
+        "montant": "1850",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Garage Horizon (fictif)",
+    "tresorerie": "14300",
+    "total": "25350",
+    "etat_tresorerie": "insuffisante",
+    "echeances": [
+      {
+        "client": "Garage Horizon (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "4550",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Garage Horizon (fictif)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "11800",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Garage Horizon (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "2900",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Garage Horizon (fictif)",
+        "jour": "2026-12-21",
+        "nature": "TVA (CA3) du mois précédent",
+        "montant": "6100",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Cabinet de kiné Orme (fictif)",
+    "tresorerie": "12700",
+    "total": "520",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Cabinet de kiné Orme (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "520",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      }
+    ]
+  },
+  {
+    "client": "Agence Nacre (fictive)",
+    "tresorerie": "27800",
+    "total": "6050",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Agence Nacre (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "2450",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Agence Nacre (fictive)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "3600",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Librairie Méandre (fictive)",
+    "tresorerie": "3600",
+    "total": "2280",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Librairie Méandre (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "0",
+        "paiement": true,
+        "note": "Dispensé : IS du dernier exercice n'excédant pas 3 000 €."
+      },
+      {
+        "client": "Librairie Méandre (fictive)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "1400",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Librairie Méandre (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "880",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Librairie Méandre (fictive)",
+        "jour": "2026-12-16",
+        "nature": "Acompte de TVA (CA12)",
+        "montant": "0",
+        "paiement": true,
+        "note": "Dispensé : TVA de l'année précédente inférieure à 1 000 €."
+      }
+    ]
+  },
+  {
+    "client": "Traiteur Saveurs d'Île (fictif)",
+    "tresorerie": "19800",
+    "total": "22100",
+    "etat_tresorerie": "insuffisante",
+    "echeances": [
+      {
+        "client": "Traiteur Saveurs d'Île (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "1900",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Traiteur Saveurs d'Île (fictif)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "14200",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Traiteur Saveurs d'Île (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "1700",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Traiteur Saveurs d'Île (fictif)",
+        "jour": "2026-12-24",
+        "nature": "TVA (CA3) du mois précédent",
+        "montant": "4300",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Menuiserie Carène (fictive)",
+    "tresorerie": "42100",
+    "total": "19690",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Menuiserie Carène (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "3200",
+        "paiement": true,
+        "note": "Un quart de l'IS du dernier exercice clos (taux inchangés supposés)."
+      },
+      {
+        "client": "Menuiserie Carène (fictive)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "9100",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Menuiserie Carène (fictive)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "1550",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Menuiserie Carène (fictive)",
+        "jour": "2026-12-21",
+        "nature": "Acompte de TVA (CA12), 40 % de la TVA de l'an dernier",
+        "montant": "5840",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  },
+  {
+    "client": "Atelier Basalte (fictif)",
+    "tresorerie": "6100",
+    "total": "4880",
+    "etat_tresorerie": "suffisante",
+    "echeances": [
+      {
+        "client": "Atelier Basalte (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Acompte d'impôt sur les sociétés",
+        "montant": "0",
+        "paiement": true,
+        "note": "Dispensé : IS du dernier exercice n'excédant pas 3 000 €."
+      },
+      {
+        "client": "Atelier Basalte (fictif)",
+        "jour": "2026-12-15",
+        "nature": "DSN et cotisations sociales du mois précédent",
+        "montant": "1900",
+        "paiement": true,
+        "note": ""
+      },
+      {
+        "client": "Atelier Basalte (fictif)",
+        "jour": "2026-12-15",
+        "nature": "Solde de CFE",
+        "montant": "780",
+        "paiement": true,
+        "note": "Estimé sur la CFE de l'an dernier : le montant exact est sur l'avis dans l'espace professionnel."
+      },
+      {
+        "client": "Atelier Basalte (fictif)",
+        "jour": "2026-12-17",
+        "nature": "TVA (CA3) du mois précédent",
+        "montant": "2200",
+        "paiement": true,
+        "note": ""
+      }
+    ]
+  }
+]
