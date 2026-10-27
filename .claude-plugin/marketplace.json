@@ -1,0 +1,11 @@
+{
+  "name": "skills-expert-comptable",
+  "owner": { "name": "Daniel Sacksick" },
+  "plugins": [
+    {
+      "name": "skills-expert-comptable",
+      "source": "./",
+      "description": "Cinq skills pour l'expert-comptable de terrain, en français, qui marchent sans connecteur."
+    }
+  ]
+}

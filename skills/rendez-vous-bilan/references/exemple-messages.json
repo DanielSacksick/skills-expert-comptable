@@ -1,0 +1,20 @@
+{
+  "cabinet": "votre cabinet (exemple fictif)",
+  "messages": [
+    {"titre": "Vous avez vendu plus", "texte": "Le chiffre d'affaires passe de 957 810 € à 1 024 530 €, soit 7 % de plus. L'activité tient bien."},
+    {"titre": "Mais vous gardez un peu moins", "texte": "Le résultat net baisse de 13 % (143 937 € contre 165 825 €). La masse salariale a pris 52 500 € avec un salarié de plus, et les frais de réception, de déplacement et d'honoraires ont triplé, de 27 000 € à 91 000 €."},
+    {"titre": "La trésorerie est très confortable", "texte": "Vous finissez l'année avec 310 585 € en banque, presque le double de l'an dernier. Vos clients paient plus vite (58 jours contre 71) et l'emprunt est presque remboursé."}
+  ],
+  "questions": [
+    {"question": "Pourquoi je gagne moins alors que je vends plus ?", "reponse": "Parce que les charges ont augmenté plus vite que les ventes : le salarié embauché en début d'année, et surtout les frais de réception, de déplacement et d'honoraires, qui passent de 27 000 € à 91 000 €. C'est le poste à regarder ensemble."},
+    {"question": "J'ai 310 000 € en banque, est-ce que je peux me verser plus ?", "reponse": "Une partie de cette trésorerie sert à payer les dettes de début d'année (TVA, cotisations, impôt). On regarde ensemble ce qui reste vraiment disponible, puis la meilleure forme (salaire ou dividendes) selon votre situation personnelle."},
+    {"question": "Est-ce que je vais payer plus d'impôt l'an prochain ?", "reponse": "L'impôt sur les sociétés suit le bénéfice. Votre bénéfice baisse un peu, l'impôt aussi. On vérifie les acomptes de l'année en cours au rendez-vous."},
+    {"question": "Est-ce que je peux embaucher encore ?", "reponse": "La trésorerie le permet. La vraie question est la marge : chaque embauche doit être couverte par du chiffre d'affaires en plus. On peut chiffrer un scénario."}
+  ],
+  "conseils": [
+    "Fixer un budget annuel pour les réceptions et les déplacements, et le suivre chaque trimestre.",
+    "Placer la trésorerie qui dort au-delà de trois mois de charges, sur un support sans risque.",
+    "Garder le rythme de relance des clients : passer de 71 à 58 jours a libéré beaucoup d'argent.",
+    "Faire un point à mi-année pour ajuster les prévisions plutôt que de découvrir le résultat au bilan."
+  ]
+}

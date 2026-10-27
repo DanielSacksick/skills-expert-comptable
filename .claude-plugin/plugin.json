@@ -1,0 +1,10 @@
+{
+  "name": "skills-expert-comptable",
+  "version": "0.1.0",
+  "description": "Cinq skills pour l'expert-comptable de terrain : réponse client sourcée, relance des pièces, révision du FEC, rendez-vous bilan, alerte échéances. Brouillons uniquement.",
+  "author": { "name": "Daniel Sacksick" },
+  "homepage": "https://github.com/DanielSacksick/skills-expert-comptable",
+  "repository": "https://github.com/DanielSacksick/skills-expert-comptable",
+  "license": "MIT",
+  "keywords": ["expert-comptable", "comptabilité", "FEC", "fiscalité", "France"]
+}

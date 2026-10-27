@@ -1,0 +1,188 @@
+{
+  "entete": {
+    "dossier": "000000000FEC20251231.txt",
+    "cloture": "31/12/2025",
+    "nb_lignes": 3041,
+    "n1": "000000000FEC20241231.txt",
+    "seuil": "5 000 € et 20 %",
+    "colonnes_manquantes": [],
+    "avertissements": []
+  },
+  "resume": {
+    "fort": 6,
+    "moyen": 11,
+    "faible": 0
+  },
+  "constats": [
+    {
+      "controle": "comptes_attente",
+      "cycle": "Autres tiers et comptes d'attente",
+      "importance": "fort",
+      "compte": "471000",
+      "libelle": "Compte d'attente",
+      "montant": "3480.00",
+      "detail": "Compte d'attente non soldé à la clôture : 3 480,00 €.",
+      "a_faire": "Identifier chaque mouvement, le reclasser sur le bon compte, demander la pièce au client."
+    },
+    {
+      "controle": "numerotation",
+      "cycle": "Tous cycles",
+      "importance": "fort",
+      "compte": "AC",
+      "libelle": "Journal AC",
+      "montant": "0",
+      "detail": "2 numéro(s) d'écriture manquant(s) : AC00150, AC00151.",
+      "a_faire": "Demander pourquoi ces écritures ont disparu (suppression, renumérotation, export partiel)."
+    },
+    {
+      "controle": "dates_atypiques",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "622600",
+      "libelle": "Régularisation manuelle",
+      "montant": "1800.00",
+      "detail": "Écriture OD00003 du 16/03/2025 (dimanche), journal OD.",
+      "a_faire": "Vérifier la pièce et qui a passé l'écriture. Normal pour un paiement carte, suspect pour une OD manuelle."
+    },
+    {
+      "controle": "dates_atypiques",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "622600",
+      "libelle": "Régularisation manuelle",
+      "montant": "950.00",
+      "detail": "Écriture OD00009 du 14/07/2025 (Fête nationale), journal OD.",
+      "a_faire": "Vérifier la pièce et qui a passé l'écriture. Normal pour un paiement carte, suspect pour une OD manuelle."
+    },
+    {
+      "controle": "dates_atypiques",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "622600",
+      "libelle": "Régularisation manuelle",
+      "montant": "2400.00",
+      "detail": "Écriture OD00011 du 09/08/2025 (samedi), journal OD.",
+      "a_faire": "Vérifier la pièce et qui a passé l'écriture. Normal pour un paiement carte, suspect pour une OD manuelle."
+    },
+    {
+      "controle": "dates_atypiques",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "622600",
+      "libelle": "Régularisation manuelle",
+      "montant": "3100.00",
+      "detail": "Écriture OD00016 du 25/12/2025 (Noël), journal OD.",
+      "a_faire": "Vérifier la pièce et qui a passé l'écriture. Normal pour un paiement carte, suspect pour une OD manuelle."
+    },
+    {
+      "controle": "tiers_non_lettres",
+      "cycle": "Ventes et clients",
+      "importance": "fort",
+      "compte": "411000",
+      "libelle": "Garage Horizon",
+      "montant": "7200.00",
+      "detail": "Créance non lettrée depuis le 10/05/2024 (600 jours) sur Garage Horizon (C007) : 7 200,00 € ont plus de 180 jours, solde total 20 577,12 €.",
+      "a_faire": "Relancer ou justifier. Une créance de plus d'un an pose la question d'une dépréciation."
+    },
+    {
+      "controle": "sens_anormal",
+      "cycle": "Trésorerie",
+      "importance": "fort",
+      "compte": "512200",
+      "libelle": "Banque",
+      "montant": "-2759.93",
+      "detail": "Banque : solde créditeur de 2 759,93 € sur compte 512200 Banque.",
+      "a_faire": "Banque créditrice : découvert ? Vérifier l'autorisation et le reclasser en 519 au bilan."
+    },
+    {
+      "controle": "sens_anormal",
+      "cycle": "Achats et fournisseurs",
+      "importance": "fort",
+      "compte": "401000",
+      "libelle": "Bureau Plus",
+      "montant": "1463.41",
+      "detail": "Fournisseur : solde débiteur de 1 463,41 € sur Bureau Plus (F005).",
+      "a_faire": "Fournisseur débiteur : double paiement, avoir non reçu ou acompte ? Reclasser en 409 si besoin."
+    },
+    {
+      "controle": "sens_anormal",
+      "cycle": "Ventes et clients",
+      "importance": "fort",
+      "compte": "411000",
+      "libelle": "Agence Nacre",
+      "montant": "-2400.00",
+      "detail": "Client : solde créditeur de 2 400,00 € sur Agence Nacre (C011).",
+      "a_faire": "Client créditeur : double encaissement, avoir à rembourser ou acompte ? Reclasser en 419 si besoin."
+    },
+    {
+      "controle": "benford",
+      "cycle": "Tous cycles",
+      "importance": "moyen",
+      "compte": "Tout le FEC",
+      "libelle": "Loi de Benford",
+      "montant": "0",
+      "detail": "Tout le FEC : 2956 montants, écart moyen 0,0180 (non-conformité au-delà de 0,015). Le chiffre 4 revient trop souvent en premier.",
+      "a_faire": "Regarder les montants qui commencent par 4 : seuils de validation contournés, montants ronds, saisies répétées ?"
+    },
+    {
+      "controle": "benford",
+      "cycle": "Tous cycles",
+      "importance": "moyen",
+      "compte": "Journal BQ",
+      "libelle": "Loi de Benford",
+      "montant": "0",
+      "detail": "Journal BQ : 1330 montants, écart moyen 0,0266 (non-conformité au-delà de 0,015). Le chiffre 4 revient trop souvent en premier.",
+      "a_faire": "Regarder les montants qui commencent par 4 : seuils de validation contournés, montants ronds, saisies répétées ?"
+    },
+    {
+      "controle": "benford",
+      "cycle": "Tous cycles",
+      "importance": "moyen",
+      "compte": "Journal NF",
+      "libelle": "Loi de Benford",
+      "montant": "0",
+      "detail": "Journal NF : 308 montants, écart moyen 0,0781 (non-conformité au-delà de 0,015). Le chiffre 4 revient trop souvent en premier.",
+      "a_faire": "Regarder les montants qui commencent par 4 : seuils de validation contournés, montants ronds, saisies répétées ?"
+    },
+    {
+      "controle": "ecarts_n_n1",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "622600",
+      "libelle": "Honoraires",
+      "montant": "24176.53",
+      "detail": "622600 Honoraires : 6 794 € en N-1, 30 970 € en N (+355,9 %).",
+      "a_faire": "Demander l'explication au client et vérifier les plus grosses pièces du compte."
+    },
+    {
+      "controle": "ecarts_n_n1",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "625100",
+      "libelle": "Voyages et déplacements",
+      "montant": "14062.01",
+      "detail": "625100 Voyages et déplacements : 17 237 € en N-1, 31 299 € en N (+81,6 %).",
+      "a_faire": "Demander l'explication au client et vérifier les plus grosses pièces du compte."
+    },
+    {
+      "controle": "ecarts_n_n1",
+      "cycle": "Achats et fournisseurs",
+      "importance": "moyen",
+      "compte": "625700",
+      "libelle": "Réceptions",
+      "montant": "25348.18",
+      "detail": "625700 Réceptions : 3 362 € en N-1, 28 710 € en N (+753,9 %).",
+      "a_faire": "Demander l'explication au client et vérifier les plus grosses pièces du compte."
+    },
+    {
+      "controle": "ecarts_n_n1",
+      "cycle": "Autres charges et produits",
+      "importance": "moyen",
+      "compte": "651000",
+      "libelle": "Redevances logiciels",
+      "montant": "-14930.33",
+      "detail": "651000 Redevances logiciels : 32 181 € en N-1, 17 251 € en N (-46,4 %).",
+      "a_faire": "Demander l'explication au client et vérifier les plus grosses pièces du compte."
+    }
+  ]
+}

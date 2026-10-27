@@ -1,0 +1,66 @@
+{
+  "avertissement": "Données 100 % fictives générées par outils/generer_fec.py. Aucune société réelle.",
+  "societe": "Pivert Conseil SAS (société fictive)",
+  "exercice": 2025,
+  "anomalies": [
+    {
+      "controle": "comptes_attente",
+      "compte": "471000",
+      "solde": "3480.00"
+    },
+    {
+      "controle": "numerotation",
+      "journal": "AC",
+      "numeros_manquants": [
+        "AC00150",
+        "AC00151"
+      ]
+    },
+    {
+      "controle": "dates_atypiques",
+      "dates": [
+        "2025-03-16",
+        "2025-08-09",
+        "2025-07-14",
+        "2025-12-25"
+      ]
+    },
+    {
+      "controle": "tiers_non_lettres",
+      "compte": "411000",
+      "tiers": "C007",
+      "piece": "FV2024-0900",
+      "date": "2024-05-10",
+      "montant": "7200.00"
+    },
+    {
+      "controle": "sens_anormal",
+      "compte": "401000",
+      "tiers": "F005",
+      "solde": "1463.41"
+    },
+    {
+      "controle": "sens_anormal",
+      "compte": "411000",
+      "tiers": "C011",
+      "solde": "-2400.00"
+    },
+    {
+      "controle": "sens_anormal",
+      "compte": "512200",
+      "solde": "-2759.93"
+    },
+    {
+      "controle": "ecarts_n_n1",
+      "comptes": [
+        "622600",
+        "625700"
+      ]
+    },
+    {
+      "controle": "benford",
+      "journal": "NF",
+      "chiffre_surrepresente": 4
+    }
+  ]
+}
