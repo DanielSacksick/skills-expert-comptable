@@ -14,11 +14,13 @@ Un client écrit à son expert-comptable : « je peux passer ce resto en frais ?
 
 ## Étapes
 
-1. **Comprendre la question.** Reformule-la en une ligne pour l'expert-comptable. S'il y a plusieurs questions dans le mail, traite-les une par une.
+1. **Comprendre la question.** Reformule-la en une ligne pour l'expert-comptable. S'il y a plusieurs questions dans le mail, traite-les une par une. Une question que le client ne pose pas mais qui découle de la sienne (TVA sur l'achat, avantage en nature...) se signale dans les pièges, sans y répondre.
 2. **Trouver la règle.** Cherche d'abord dans [references/fiches-regles.md](references/fiches-regles.md). Chaque fiche a été vérifiée sur une source officielle à une date donnée.
    - Si tu as accès au web, ouvre le lien de la fiche et vérifie que la règle n'a pas changé depuis la date de vérification. Si elle a changé, dis-le en tête de ta réponse.
-   - **Si la question n'a pas de fiche**, cherche la règle sur une source officielle uniquement : Légifrance, BOFiP, impots.gouv.fr, urssaf.fr, service-public.gouv.fr. Donne le lien exact. Si tu n'as pas accès au web ou ne trouves pas de source officielle, ne réponds pas sur le fond : écris que la règle est à vérifier et pourquoi.
-   - **Jamais de chiffre de mémoire.** Un taux, un seuil ou un plafond sans lien officiel ne va pas dans la réponse.
+   - **Si la question n'a pas de fiche**, cherche la règle sur une source officielle uniquement : Légifrance, BOFiP, impots.gouv.fr, urssaf.fr, service-public.gouv.fr, douane.gouv.fr. Donne le lien exact. Si tu n'as pas accès au web ou ne trouves pas de source officielle, ne réponds pas sur le fond : écris que la règle est à vérifier et pourquoi.
+   - **Jamais de chiffre de mémoire.** Un taux, un seuil ou un plafond sans lien officiel ne va pas dans la réponse. Un plafond lu sur la source officielle peut être recopié tel quel au client, avec le lien.
+   - **Deux sources officielles qui se contredisent** : ne cite aucun des deux chiffres, mets la certitude à **incertain** et explique la contradiction à l'expert-comptable.
+   - Une règle trouvée hors des fiches est signalée en tête du bloc 1 comme « à ajouter aux fiches après relecture ». Tu ne modifies pas les fiches toi-même.
 3. **Rédiger deux blocs.**
 
    **Bloc 1, pour l'expert-comptable (ne part pas chez le client)** :
@@ -43,7 +45,7 @@ Voir `exemples/mails/` (questions de clients fictifs) et `exemples/sorties/repon
 
 ## Données sensibles
 
-Un mail de client contient des informations couvertes par le secret professionnel. Si le message semble réel, rappelle en une phrase de travailler dans un environnement maîtrisé par le cabinet, ou de retirer les noms et montants personnels avant de le coller.
+Un mail de client contient des informations couvertes par le secret professionnel et par le RGPD. Si le message semble réel, rappelle en une phrase de travailler dans un environnement maîtrisé par le cabinet, ou de retirer les noms et montants personnels avant de le coller.
 
 ## Connecteurs (bonus, jamais obligatoires)
 

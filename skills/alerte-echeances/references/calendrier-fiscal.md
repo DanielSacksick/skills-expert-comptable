@@ -29,7 +29,7 @@ Les dates de **dépôt** de déclarations (liasse, CA12) suivent leurs propres t
 ## Cotisation foncière des entreprises (CFE)
 
 - Solde au 15 décembre, acompte au 15 juin. [impots.gouv.fr](https://www.impots.gouv.fr/professionnel/questions/comment-puis-je-acceder-mon-avis-de-cfe-et-le-payer).
-- Acompte dû si la CFE de l'année précédente est supérieure ou égale à 3 000 €, égal à 50 % de celle-ci, sauf mensualisation. [Fiche CET-IFER 2026](https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/depliants/pro_fiche_cet-ifer_2026.pdf).
+- Acompte dû si la CFE de l'année précédente est supérieure ou égale à 3 000 €, égal à 50 % de celle-ci, sauf mensualisation. [Fiche CET-IFER 2026](https://www.impots.gouv.fr/sites/default/files/media/3_Documentation/depliants/pro_fiche_cet-ifer_2026.pdf), [service-public A16590](https://www.service-public.gouv.fr/entreprendre/actualites/A16590?profil=societe&lang=fr). Le seuil s'apprécie établissement par établissement : le script raisonne sur le total du client, à corriger pour un client à plusieurs établissements.
 - Le montant de l'année n'est connu qu'avec l'avis : le script prend la CFE de l'an dernier.
 
 ## Cotisations sociales et DSN

@@ -24,6 +24,17 @@ Ils marchent avec de simples fichiers (FEC, relevé bancaire, tableau Excel, mai
 
 ![Page du rendez-vous bilan](docs/images/rendez-vous-bilan.png)
 
+**Réponse client** : « je peux passer ce resto en frais ? » (extrait de la note pour l'expert-comptable et du brouillon) :
+
+```text
+Certitude : sûr pour la déduction (prospect identifié, montant raisonnable).
+À confirmer pour la TVA : conclusion tirée de l'absence d'exclusion dans le BOFiP.
+
+Bonjour Malik,
+Oui, ce repas peut passer en frais de la société : vous avez invité un prospect
+dans l'intérêt du garage, et le montant est raisonnable.
+```
+
 **Relance des pièces** (extrait du brouillon produit) :
 
 ```text
@@ -41,11 +52,11 @@ pour un total de 2 875,41 €. Les voici, du plus important au plus petit :
 | Garage Horizon (fictif) | 25 350 € | 14 300 € | 🔴 insuffisante |
 | Menuiserie Carène (fictive) | 19 690 € | 42 100 € | suffisante |
 
-Toutes les sorties d'exemple sont dans [exemples/sorties/](exemples/sorties/).
+Toutes les sorties d'exemple sont dans [exemples/sorties/](exemples/sorties/). Le déroulé de chaque démonstration est dans [docs/demos.md](docs/demos.md).
 
 ## Installer
 
-### Dans Claude Code (une commande)
+### Dans Claude Code (deux commandes)
 
 Dans Claude Code, tapez :
 

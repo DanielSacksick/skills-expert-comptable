@@ -24,11 +24,15 @@ Si l'utilisateur n'a pas de portefeuille, propose-lui de le construire avec lui 
 
 2. Lis `echeances/echeances-AAAA-MM.json` et réponds :
    - **D'abord les trésoreries à surveiller** : les clients `insuffisante` puis `tendue`, avec le total à payer et le solde connu. C'est là que l'expert-comptable doit appeler.
-   - **Le calendrier** : le chemin de `echeances-AAAA-MM.md`, avec le tableau par date.
+   - **Le calendrier** : `echeances-AAAA-MM.md` (dans Claude Code, donne le chemin ; dans Claude.ai, propose-le en fichier à télécharger), avec le tableau par date.
    - **Les messages** : ils sont dans le même fichier, un par client, prêts à relire.
    - **Ce que le script ne sait pas** : les notes des échéances (montant à calculer, régime à vérifier) et la liste « Non géré » du calendrier fiscal.
 
 3. Si l'expert-comptable te donne un chiffre plus récent (trésorerie, TVA du mois), mets à jour le portefeuille et relance le script. Ne recalcule jamais un total de tête.
+
+## Données sensibles
+
+Le portefeuille réunit les chiffres fiscaux et la trésorerie de tous les clients du cabinet. Ces données sont couvertes par le secret professionnel et par le RGPD. Rappelle en une phrase de travailler dans un environnement validé par le cabinet, de pseudonymiser (remplacer les noms de clients, de salariés et de tiers par des codes) en cas de doute, et de ne jamais déposer de données réelles dans une conversation que le cabinet ne maîtrise pas.
 
 ## Règles
 

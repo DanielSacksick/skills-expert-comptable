@@ -37,7 +37,7 @@ Tu prépares le rendez-vous où l'expert-comptable présente ses comptes à un c
    python scripts/rendre_page.py rdv
    ```
 
-   Donne le chemin de `rdv/rendez-vous.html` et résume les trois messages dans ta réponse.
+   Rends disponible `rdv/rendez-vous.html` (dans Claude Code, donne le chemin ; dans Claude.ai, propose-le en fichier à télécharger). Elle s'imprime sur une page A4. Résume les trois messages dans ta réponse.
 
 ## Règles d'écriture
 
@@ -46,6 +46,10 @@ Tu prépares le rendez-vous où l'expert-comptable présente ses comptes à un c
 - Phrases courtes, sans jargon, sans tiret long.
 - Une baisse se dit franchement, avec sa cause quand les comptes la montrent. Quand la cause n'est pas dans les comptes, écris une question à poser au client, pas une hypothèse présentée comme un fait.
 - Pas de promesse fiscale. Sur l'impôt, la rémunération du dirigeant ou les dividendes, la réponse renvoie à un échange avec l'expert-comptable, parce que la réponse dépend de la situation personnelle du client.
+
+## Données sensibles
+
+Le FEC contient toute la comptabilité du client : noms de tiers, salaires, montants. Ces données sont couvertes par le secret professionnel et par le RGPD. Rappelle en une phrase de travailler dans un environnement validé par le cabinet, de pseudonymiser (remplacer les noms de clients, de salariés et de tiers par des codes) en cas de doute, et de ne jamais déposer de données réelles dans une conversation que le cabinet ne maîtrise pas.
 
 ## Les formules
 

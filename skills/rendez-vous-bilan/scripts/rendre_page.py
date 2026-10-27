@@ -44,7 +44,13 @@ main{max-width:980px;margin:auto;padding:28px 16px}h1{font-size:26px;margin:0}h2
 .legende i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 details{border-bottom:1px solid var(--trait);padding:8px 0}summary{cursor:pointer;font-weight:600}
 ul{margin:0;padding-left:20px}li{margin:4px 0}footer{margin-top:28px;color:var(--doux);font-size:12px}
-@media print{body{font-size:12px}main{padding:0}details{padding:3px 0}details>*{display:block}h2{margin:14px 0 6px}}
+@page{size:A4;margin:9mm}
+@media print{body{font-size:9.5px;background:#fff}main{padding:0;max-width:none}h1{font-size:18px}h2{font-size:12px;margin:8px 0 4px}
+.sous{margin:0 0 8px}.carte{padding:6px 9px;border-radius:8px}.tuile b{font-size:16px}.grille{gap:6px}
+.tuiles{grid-template-columns:repeat(4,1fr)}.messages{grid-template-columns:repeat(3,1fr)}.graphes{grid-template-columns:1fr 1fr}
+.message h3{font-size:11px;margin:0 0 2px}.message p{margin:0}details{padding:2px 0}details p{margin:1px 0 0}
+summary{list-style:none}summary::-webkit-details-marker{display:none}li{margin:1px 0}footer{margin-top:8px;font-size:8px}
+.legende{font-size:9px;margin-bottom:2px}svg{max-height:150px}}
 """
 
 
@@ -95,7 +101,7 @@ def construire(chiffres: dict, messages: dict) -> str:
     serie = lambda bloc: [(m, _d(v)) for m, v in bloc["tresorerie_mensuelle"]] if bloc else None  # noqa: E731
     cartes = "".join(f"<div class='carte message'><h3><span class='num'>{i}</span>{escape(m['titre'])}</h3>"
                      f"<p>{escape(m['texte'])}</p></div>" for i, m in enumerate(messages["messages"], start=1))
-    questions = "".join(f"<details><summary>{escape(q['question'])}</summary><p>{escape(q['reponse'])}</p></details>"
+    questions = "".join(f"<details open><summary>{escape(q['question'])}</summary><p>{escape(q['reponse'])}</p></details>"
                         for q in messages.get("questions", []))
     conseils = "".join(f"<li>{escape(c)}</li>" for c in messages.get("conseils", []))
     legende = ("<div class='legende'><span><i style='background:var(--n1)'></i>Exercice précédent</span>"

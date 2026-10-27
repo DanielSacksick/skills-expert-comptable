@@ -29,7 +29,7 @@ Un exemple complet est dans le dossier `exemples/relance-pieces/` du dépôt.
 
 2. Lis `relances/synthese.json` et réponds :
    - un tableau d'une ligne par client : nombre de pièces manquantes, montant total, du client le plus en retard au moins en retard ;
-   - pour chaque client, le chemin du brouillon `relances/<client>-relance.md` et de la liste `relances/<client>-manquants.csv` ;
+   - pour chaque client, le brouillon `relances/<client>-relance.md` et la liste `relances/<client>-manquants.csv` (dans Claude Code, donne le chemin ; dans Claude.ai, propose-le en fichier à télécharger) ; recopie aussi le brouillon du client le plus en retard dans ta réponse ;
    - les pièces reçues sans mouvement bancaire en face (`justificatifs_sans_mouvement`) : payées par un autre compte, une carte personnelle, ou mal datées. À vérifier avec le client, sans l'accuser.
 
 3. Si l'expert-comptable veut retoucher le ton, modifie le brouillon. Garde toujours la date, le montant et le libellé exact de chaque opération : c'est ce qui permet au client de retrouver la pièce.

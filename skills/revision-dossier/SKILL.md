@@ -34,7 +34,7 @@ Un FEC contient des données de clients couvertes par le secret professionnel. S
 3. Réponds en quatre blocs courts :
    - **En une phrase** : nombre de points, dont combien importants.
    - **Les 3 points à regarder en premier** : les constats `fort` aux montants les plus élevés, chacun en une ligne avec ce qu'il faut demander au client.
-   - **La feuille de travail** : donne le chemin de `revision/feuille-de-travail.html` (lisible dans un navigateur, imprimable) et de la version Markdown.
+   - **La feuille de travail** : rends disponibles `revision/feuille-de-travail.html` (lisible dans un navigateur, imprimable) et la version Markdown (dans Claude Code, donne le chemin ; dans Claude.ai, propose-le en fichier à télécharger).
    - **Ce que l'outil ne voit pas** : voir la section Limites, en deux lignes.
 
 4. Si l'expert-comptable te demande d'approfondir un point, relis les lignes du FEC concernées (compte, tiers, numéro d'écriture) et propose une explication possible, en disant que c'est une hypothèse.

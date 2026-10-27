@@ -50,6 +50,7 @@ def test_les_skills_ne_disent_jamais_d_envoyer():
     for skill in (RACINE / "skills").iterdir():
         texte = (skill / "SKILL.md").read_text(encoding="utf-8")
         assert "brouillon" in texte.lower(), f"{skill.name} doit rappeler qu'il ne produit que des brouillons"
+        assert "secret professionnel" in texte, f"{skill.name} doit rappeler le secret professionnel"
         assert not re.search(r"\b(send_mail|send_draft|send_message|gmail_send)\b", texte), skill.name
 
 
